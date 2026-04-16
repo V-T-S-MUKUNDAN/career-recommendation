@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/V-T-S-MUKUNDAN/career-recommendation.git'
-            }
-        }
 
         stage('Build') {
             steps {
